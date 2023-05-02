@@ -182,3 +182,67 @@
 - summary: |
     Проверка просмотра завершенной игры неавторизованным пользователем
   status: pass
+  
+- summary: |
+    Проверка интерфейса создания новой задачи пользователем Create new task
+  status: fail
+
+- summary: |
+    Проверка создания новой задачи пользователем Create new task
+  status: pass
+
+- summary: |
+    Проверка создания новой задачи пользователем Create new task с неуникальным наименованием
+  status: pass
+
+- summary: |
+    Проверка статуса после создания новой задачи пользователем Create new task
+  status: fail
+
+- summary: |
+    Проверка возможности создания новой задачи пользователем Create new task с пустыми полями
+  status: pass
+
+- summary : |
+    Проверка интерфейса создания новой задачи пользователем Create new task с пустыми полями
+  status: fail
+
+- summary: | 
+    Проверка создания новой задачи с названием Random task
+  status: fail
+
+- summary: | 
+    Проверка создания новой игры с использованием задачи в статусе черновик
+  status: fail
+
+- summary: | 
+    Проверка интерфейса создания набора задачи пользователем Create new task pack
+  status: fail
+
+- summary: |
+    Проверка создания набора задач пользователем Create new task pack
+  status: pass
+
+- summary: | 
+    Проверка создания наборов задач пользователем Create new task pack с неуникальным наименованием
+  status: fail
+
+- summary: | 
+    Проверка добавления в набор задач пользователя Task pack отрицательных значений task_ids
+  status: fail
+
+- summary: | 
+    Проверка добавления в набор задач пользователя Task pack несуществующих task_ids
+  status: fail
+
+- summary: | 
+    Проверка интерфейса вкладки Completed games главной страницы сайта
+  status: fail
+
+- summary: | 
+    Проверка интерфейса Users rating
+  status: fail
+
+- summary: | 
+    Проверка возможности создания новой игры из меню идущей игры
+  status: fail
