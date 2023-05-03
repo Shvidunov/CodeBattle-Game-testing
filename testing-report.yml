@@ -240,7 +240,7 @@
   status: fail
 
 - summary: | 
-    Проверка интерфейса Users rating
+    Проверка оформления страницы Users rating
   status: fail
 
 - summary: | 
