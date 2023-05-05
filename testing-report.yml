@@ -132,7 +132,7 @@
   status: pass
 
 - summary: |
-    Проверка результатов ввода кода в игре
+    Проверка результатов ввода кода в игре при вводе правильного решения
   status: pass
 
 - summary: |
@@ -172,7 +172,7 @@
   status: pass
 
 - summary: |
-    Проверка просмотра данных другого пользователя из панели Lobby неавторизованным пользователем
+    Проверка просмотра данных пользователя неавторизованным пользователем по прямой ссылке
   status: pass
 
 - summary: |
@@ -182,7 +182,7 @@
 - summary: |
     Проверка просмотра завершенной игры неавторизованным пользователем
   status: pass
-  
+
 - summary: |
     Проверка интерфейса создания новой задачи пользователем Create new task
   status: fail
@@ -203,19 +203,19 @@
     Проверка возможности создания новой задачи пользователем Create new task с пустыми полями
   status: pass
 
-- summary : |
+- summary: |
     Проверка интерфейса создания новой задачи пользователем Create new task с пустыми полями
   status: fail
 
-- summary: | 
+- summary: |
     Проверка создания новой задачи с названием Random task
   status: fail
 
-- summary: | 
+- summary: |
     Проверка создания новой игры с использованием задачи в статусе черновик
   status: fail
 
-- summary: | 
+- summary: |
     Проверка интерфейса создания набора задачи пользователем Create new task pack
   status: fail
 
@@ -223,30 +223,38 @@
     Проверка создания набора задач пользователем Create new task pack
   status: pass
 
-- summary: | 
+- summary: |
     Проверка создания наборов задач пользователем Create new task pack с неуникальным наименованием
   status: fail
 
-- summary: | 
+- summary: |
     Проверка добавления в набор задач пользователя Task pack отрицательных значений task_ids
   status: fail
 
-- summary: | 
+- summary: |
     Проверка добавления в набор задач пользователя Task pack несуществующих task_ids
   status: fail
 
-- summary: | 
+- summary: |
     Проверка интерфейса вкладки Completed games главной страницы сайта
   status: fail
 
-- summary: | 
+- summary: |
     Проверка оформления страницы Users rating
   status: fail
 
-- summary: | 
+- summary: |
     Проверка возможности создания новой игры из меню идущей игры
   status: fail
 
 - summary: |
     Проверка корректности работы пагинации на странице Users rating
   status: fail
+
+- summary: |
+    Проверка получения приглашения на игру
+  status: pass
+
+- summary: |
+    Проверка результатов ввода кода в игре при вводе неправильного решения
+  status: pass
