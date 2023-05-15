@@ -1,0 +1,9 @@
+,level,game type,time,select game,opponent
+1,1,bot,28,selective,no exist
+2,1,friend,60,random,choose opponent
+3,1,user,3,selective,no exist
+4,2,user,28,random,no exist
+5,3,friend,3,random,choose opponent
+6,3,user,28,selective,no exist
+7,3,bot,3,selective,no exist
+8,4,user,3,random,no exist
